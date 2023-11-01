@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AuthForm from "./components/AuthForm";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <h2 className="text-gray-700 mt-6 text-center text-4xl tracking-tight ">
         Welcome To Mes-stranger ..!
       </h2>
+      <AuthForm />
     </div>
   );
 }
